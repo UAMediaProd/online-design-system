@@ -1,0 +1,41 @@
+ol.fancy-ol {
+  list-style-type: none !important;
+  background: $ui-neutral-lighter;
+  border: 1px solid $ui-neutral-light;
+  padding: 1em 2em !important;
+  border-radius: $xxxs;
+  font-size: $m;
+
+  &.inside {
+    background: none !important;
+  }
+
+  & li {
+    padding: $m 0;
+    border-bottom: 1px solid $ui-neutral;
+    margin: $s 0;
+    margin-left: $m !important;
+    counter-increment: step-counter;
+    text-indent: -3em;
+    padding-left: 3em;
+
+  &:last-child {
+      border-bottom: none;
+  }
+
+  &::before {
+    content: ' ' counter(step-counter);
+    text-transform: uppercase;
+    font-size: $xs;
+    background: $primary-darker;
+    color: $ui-rev;
+    padding: $xxs;
+    margin-right: 2em;
+    font-weight: bold;
+
+  p {
+    margin-left: $m;
+  }
+}
+}
+}

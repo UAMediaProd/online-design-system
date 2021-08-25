@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="{{ '/assets/style.css' | url }}" />
+</head>
+<body>
+<aside class="sidebar">
+	<h4>Quality Framework</h4>
+	<ul>
+		{% for qf in collections.qf %}
+ 			<li><a href="{{ qf.url | url }}" class="nav-link">{{ qf.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
+	<h4>Learning Design</h4>
+	<ul>
+		{% for ld in collections.ld %}
+ 			<li><a href="{{ ld.url | url }}" class="nav-link">{{ ld.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
+	<h4>Style Guide</h4>
+	<ul>
+		{% for style in collections.style %}
+ 			<li><a href="{{ style.url | url }}" class="nav-link">{{ style.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
+</aside>
+
+	{{ content | safe }}
+
+</body>
+</html>

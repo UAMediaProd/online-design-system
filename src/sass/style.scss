@@ -1,0 +1,74 @@
+
+@import "tokens/_scale";
+@import "tokens/_colour-list";
+@import "tokens/_colour-build";
+@import "tokens/_colour-visualisation-build";
+@import "tokens/_depth";
+@import "tokens/_border";
+@import "tokens/_aspects";
+@import "tokens/_width";
+
+@import "utilities/_svg-factory";
+@import "utilities/_spacing";
+
+@import "tokens/_text";
+@import "tokens/_demo";
+@import "modules/_cue";
+@import "modules/_direction";
+@import "modules/_markup";
+@import "modules/_quote";
+@import "modules/_list-variations";
+@import "modules/_list-block";
+@import "modules/_list-fancy";
+@import "modules/_list-step";
+@import "modules/_list-definition";
+@import "modules/_list-icons";
+@import "modules/_list-task";
+@import "modules/_list-reference-apa";
+@import "modules/_list-timeline";
+@import "modules/_aside";
+@import "modules/_buttons";
+@import "modules/_divide";
+@import "modules/_nav-subsection";
+@import "modules/_nav-sequence";
+@import "modules/_nav-table";
+@import "modules/_nav-cards";
+@import "modules/_nav-toc";
+@import "modules/_card-image";
+@import "modules/_code";
+@import "modules/_figure";
+@import "modules/_tables";
+@import "modules/_hero";
+@import "modules/_profile";
+@import "modules/_status";
+
+body {
+  font-family: $font-text;
+  font-size: 18px;
+  
+  margin: auto;
+  
+  display: grid;
+  grid-template-columns: 25ch 1fr;
+
+  aside.sidebar {
+  background: $ui-neutral-tint;
+  margin: 0;
+  padding: 2vh 2vw;
+  min-height: 100vh;
+  
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+  }
+}
+
+main {
+  // margin-left: auto;
+  // margin-right: auto;
+  min-width: 30ch;
+  max-width: 75ch;
+  padding: 2vh 2vw;
+}

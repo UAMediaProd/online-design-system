@@ -1,0 +1,74 @@
+div.adx-direction {
+  position: relative;
+  padding: $s;
+  margin: $m $xl;
+  background: mix(white, $ui-neutral, 90%);
+  
+
+  
+  &:before {
+    position: absolute;
+    top: 0;
+    margin-left: -$xxl;
+    margin-right: $xl;
+    content: url(svg-encode($task-empty));
+    background: $ui-neutral-darker;
+    padding: $xxs;
+    padding-top: $l;
+    height: calc(100% - #{$xxs} - #{$l});
+  }
+
+  &-info {
+    @extend .adx-direction;
+    background: mix(white, $ui-information, 90%);
+
+  &:before {
+    content: url(svg-encode($info-rev));
+    background: $ui-information;
+    }
+  }
+  
+  &-question {
+    @extend .adx-direction;
+    background: mix(white, $complimentary, 90%);
+
+  &:before {
+    content: url(svg-encode($question-rev));
+    background: $complimentary;
+    }
+  }
+  
+  &-warning {
+    @extend .adx-direction;
+    background: mix(white, $ui-warning, 90%);
+
+  &:before {
+    content: url(svg-encode($exclaim-rev));
+    background: $ui-warning;
+    }
+  }
+  
+  &-incorrect {
+    @extend .adx-direction;
+    background: mix(white, $ui-negative, 90%);
+
+  &:before {
+    content: url(svg-encode($incorrect-rev));
+    background: $ui-negative;
+    }
+  }
+  
+  &-correct {
+    @extend .adx-direction;
+    background: mix(white, $ui-positive, 90%);
+
+  &:before {
+    content: url(svg-encode($correct-rev));
+    background: $ui-positive;
+    }
+  }
+    
+  & > * {
+    margin-left: $l;
+  }
+}

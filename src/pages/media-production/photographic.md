@@ -1,7 +1,7 @@
 ---
 layout: home.njk
 title: Photographic guidelines
-tags: ['nav', 'style']
+tags: ['nav', 'media']
 ---
 
 <h3 class="adx-markup-block-primary">Stock imagery</h3> 

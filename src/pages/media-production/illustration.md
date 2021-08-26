@@ -1,7 +1,7 @@
 ---
 layout: home.njk
 title: Illustration Guidelines 
-tags: ['nav', 'style']
+tags: ['nav', 'media']
 ---
 
 The illustration guidelines are intended for use by trained graphic designers and illustrators developing bespoke content for courses delivered at the University of Adelaide.

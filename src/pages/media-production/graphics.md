@@ -1,7 +1,7 @@
 ---
 layout: home.njk
 title: Graphics and iconography
-tags: ['nav', 'style']
+tags: ['nav', 'media']
 ---
 
 <h3 class="adx-markup-block-primary">Graphic style</h3> 

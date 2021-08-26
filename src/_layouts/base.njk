@@ -25,7 +25,13 @@
  			<li class="{{ 'active' if ld.url in page.url }}"><a href="{{ ld.url | url }}" class="nav-link">{{ ld.data.title }}</a></li>
  		{% endfor %}
 	</ul>
-	<h4>Style Guide</h4>
+	<h4>Media Production</h4>
+	<ul>
+		{% for media in collections.media %}
+ 			<li class="{{ 'active' if media.url in page.url }}"><a href="{{ media.url | url }}" class="nav-link">{{ media.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
+	<h4>Course Development</h4>
 	<ul>
 		{% for style in collections.style %}
  			<li class="{{ 'active' if style.url in page.url }}"><a href="{{ style.url | url }}" class="nav-link">{{ style.data.title }}</a></li>
@@ -33,7 +39,7 @@
 	</ul>
 </aside>
 
-	{{ content | safe }}
+	{{ content | safe }} 
 
 </body>
 </html>

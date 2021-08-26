@@ -104,6 +104,8 @@
       background-color: $value;
       border-radius: .08em;
       @include text-contrast($value);
+      margin-top: 4em;
+      margin-bottom: $xxxl;
     }
   }
   
@@ -111,6 +113,8 @@
   &-section {
     padding-bottom: .15em;
     border-bottom: .1em solid CurrentColor;
+    margin-top: $xxxl;
+    margin-bottom: $xxxl;
   }
   &-section-caps {
     @extend .adx-markup-section;

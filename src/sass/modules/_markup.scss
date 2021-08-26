@@ -96,6 +96,10 @@
       border-radius: $xxs;
       @include text-contrast($value);
     }
+
+      &-block-#{$color}:first-of-type {
+        margin-top: $xl;
+      }
   }
   
   @each $color, $value in $program-colors {
@@ -106,6 +110,10 @@
       @include text-contrast($value);
       margin-top: 4em;
       margin-bottom: $xxxl;
+    }
+
+    &-block-#{$color}:first-of-type {
+      margin-top: $xl;
     }
   }
   

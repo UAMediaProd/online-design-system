@@ -4,7 +4,9 @@ title: The Adelaide Online Learning Experience
 tags: ['nav', 'qf']
 ---
 
-Informed by Australian Department of Education and Training’s published report,  *Innovative Approaches for Enhancing the 21st Century Student Experience : Final Report* (Coates, 2017), the Adelaide Online Learning Experience has been developed as a way to embed a student-centric perspective into the design, development and delivery of online courses.It sets clear expectations for students and staff involved and ensures a quality experience for University’s online programs. A University of Adelaide online course is:
+Informed by Australian Department of Education and Training’s published report,  *Innovative Approaches for Enhancing the 21st Century Student Experience : Final Report* (Coates, 2017), the Adelaide Online Learning Experience has been developed as a way to embed a student-centric perspective into the design, development and delivery of online courses.It sets clear expectations for students and staff involved and ensures a quality experience for University’s online programs. 
+
+A University of Adelaide online course is:
 
 <h3 class="adx-markup-block-primary">Clear</h3>
 
@@ -40,7 +42,7 @@ Informed by Australian Department of Education and Training’s published report
 - Respects student time and commitment to study.
 - Develops skills that are relevant to their professional practice.
 
-<h2 class="adx-markup-section-caps">Aligning the Experience</h2>
+<h2 class="adx-markup-section">Aligning the Experience</h2>
 
 A key component of defining the online experience is to ensure that aligns to existing quality models and frameworks. The table below maps the Adelaide Online Experience with the Technology Enhanced Learning Accreditation Standard (TELAS),  Quality Matters (QM) and the TEQSA Higher Education Standards Framework (HESF).
 

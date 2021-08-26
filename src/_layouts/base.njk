@@ -4,26 +4,31 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/assets/style.css' | url }}" />
+	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 </head>
 <body>
 <aside class="sidebar">
+
+	{# home navigation? #}
+
+	<a href="/pages/home/" class="nav-link"><h3 class="home-link">Online Design System</h3></a>
+
 	<h4>Quality Framework</h4>
 	<ul>
 		{% for qf in collections.qf %}
- 			<li><a href="{{ qf.url | url }}" class="nav-link">{{ qf.data.title }}</a></li>
+ 			<li class="{{ 'active' if qf.url in page.url }}"><a href="{{ qf.url | url }}" class="nav-link">{{ qf.data.title }}</a></li>
  		{% endfor %}
 	</ul>
 	<h4>Learning Design</h4>
 	<ul>
 		{% for ld in collections.ld %}
- 			<li><a href="{{ ld.url | url }}" class="nav-link">{{ ld.data.title }}</a></li>
+ 			<li class="{{ 'active' if ld.url in page.url }}"><a href="{{ ld.url | url }}" class="nav-link">{{ ld.data.title }}</a></li>
  		{% endfor %}
 	</ul>
 	<h4>Style Guide</h4>
 	<ul>
 		{% for style in collections.style %}
- 			<li><a href="{{ style.url | url }}" class="nav-link">{{ style.data.title }}</a></li>
+ 			<li class="{{ 'active' if style.url in page.url }}"><a href="{{ style.url | url }}" class="nav-link">{{ style.data.title }}</a></li>
  		{% endfor %}
 	</ul>
 </aside>

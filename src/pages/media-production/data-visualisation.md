@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Data Visualisation
+title: Data visualisation
 tags: ['nav', 'media']
 ---
 

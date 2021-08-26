@@ -11,9 +11,7 @@ Care should be taken when creating or using graphics to ensure they are aligned 
 Although there are no exact rules when designing graphic content for online courses, it is important to remain within the bounds of the University graphic examples which embody the following attributes:
 
 - Simple ‘infographic’ and iconic styling
-- Use of university colours
-- Use of Bureau Grot Condensed Bold font for labels and pull text
-- Use of Open Sans Regular for secondary text
+- Use of university colours and type faces
 - Limit to the number of words and characters in your graphic
 - Informative use of iconic graphic elements
 - Clean lines and simple shapes

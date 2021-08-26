@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Illustration Guidelines 
+title: Illustration guidelines 
 tags: ['nav', 'media']
 ---
 

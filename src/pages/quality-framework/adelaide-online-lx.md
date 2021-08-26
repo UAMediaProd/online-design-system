@@ -4,7 +4,7 @@ title: The Adelaide Online Learning Experience
 tags: ['nav', 'qf']
 ---
 
-Informed by Australian Department of Education and Training’s published report,  *Innovative Approaches for Enhancing the 21st Century Student Experience : Final Report* (Coates, 2017), the Adelaide Online Learning Experience has been developed as a way to embed a student-centric perspective into the design, development and delivery of online courses.It sets clear expectations for students and staff involved and ensures a quality experience for University’s online programs. 
+Informed by Australian Department of Education and Training’s published report,  *Innovative Approaches for Enhancing the 21st Century Student Experience: Final Report* (Coates, 2017), the Adelaide Online Learning Experience has been developed as a way to embed a student-centric perspective into the design, development and delivery of online courses.It sets clear expectations for students and staff involved and ensures a quality experience for University’s online programs. 
 
 A University of Adelaide online course is:
 

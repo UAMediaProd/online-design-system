@@ -92,11 +92,13 @@ body {
       margin-bottom: $xxxl;
       color: #102535;
       font-family: 'made_evolve_sans_regular', Arial, sans-serif;
+      float:right;
     }
 
     h4 {
       margin-top: $xxl;
       font-size: $m;
+      text-transform: uppercase;
     }
 
   }

@@ -18,11 +18,11 @@ The illustration guidelines are intended for use by trained graphic designers an
 
 The **flat art** style is moderately stylised, using selective coloured outlines and consistent line weights it utilises simple textured patterns as a piont of interest. These images can be iconic in colour and leverage highlights and shading in Adobe Illustrator or similar. 
 
-> The flat art style is relitively simple to illustrate. 
+> The flat art style is relatively simple to illustrate. 
 
 <h3 class="adx-markup-block-primary">Realistic art</h3>
 
-<img src="/assets/images/realistic-art.jpg" alt="realistic art illustration" style="width:300px"/>
+<img src="/assets/images/realistic-art.jpg" alt="realistic art illustration" style="width:300px;"/>
 <img src="/assets/images/realistic-art2.jpg" alt="realistic art illustration" style="width:350px"/>
 
 The **realistic art** illustrations are intended to display as realistic as possible, without outlines it utilises textures and patterns to add realism. Diffused highlights and shading give the illustrations depth, this style is used when anatomical accuracy is required. 
@@ -53,7 +53,7 @@ Layers can also be utilised during animations using opacity and other transition
 
 <img src="/assets/images/cross-section.jpg" alt="realistic art illustration" style="width:700px"/>
 
-<h3 class="adx-markup-block-primary">The human form</h3> 
+<h3 class="adx-markup-block-primary">The human form</h3>
 
 Where possible, use basic line art to represent the human form. The Univesity brand navy colour should be used  and terminating edges should taper. Ensure to balance the use of gender representation where relevant and practical. 
 

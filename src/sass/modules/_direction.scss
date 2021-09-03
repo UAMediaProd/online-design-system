@@ -26,6 +26,11 @@ div.adx-direction {
     content: url(svg-encode($info-rev));
     background: $ui-information;
     }
+
+  & h5 {
+    color: $ui-information;
+  }
+
   }
   
   &-question {
@@ -35,6 +40,9 @@ div.adx-direction {
   &:before {
     content: url(svg-encode($question-rev));
     background: $complimentary;
+    }
+    & h5 {
+      color: $complimentary;
     }
   }
   
@@ -46,6 +54,9 @@ div.adx-direction {
     content: url(svg-encode($exclaim-rev));
     background: $ui-warning;
     }
+    & h5 {
+      color: $ui-warning;
+    }
   }
   
   &-incorrect {
@@ -56,6 +67,9 @@ div.adx-direction {
     content: url(svg-encode($incorrect-rev));
     background: $ui-negative;
     }
+    & h5 {
+      color: $ui-negative;
+    }
   }
   
   &-correct {
@@ -65,6 +79,9 @@ div.adx-direction {
   &:before {
     content: url(svg-encode($correct-rev));
     background: $ui-positive;
+    }
+    & h5 {
+      color: $ui-positive;
     }
   }
     

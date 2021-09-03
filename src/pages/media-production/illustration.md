@@ -6,7 +6,7 @@ tags: ['nav', 'media']
 
 The illustration guidelines are intended for use by trained graphic designers and illustrators developing bespoke content for courses delivered at the University of Adelaide.
 
-<div class="adx-direction-warning"><h5>Template files</h5><p>There are a number of <span class="adx-markup-highlight-orange">template files and packages</span> to use within the Adobe Creative Suite tools.</p><p>Click <b>here</b> to download.</p></div>
+<div class="adx-direction-warning"><h5>Template files</h5><p>There are a number of template files and packages to use within the Adobe Creative Suite tools.</p><p>Click <b>here</b> to download.</p></div>
 
 <h2 class="adx-markup-section-caps">Key graphics</h2>
 

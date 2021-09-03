@@ -1,3 +1,5 @@
+//import font-awesome
+@import url('https://pro.fontawesome.com/releases/v5.15.0/css/all.css');
 
 @import "tokens/_scale";
 @import "tokens/_colour-list";
@@ -17,6 +19,7 @@
 @import "modules/_direction";
 @import "modules/_markup";
 @import "modules/_quote";
+@import "modules/_link";
 @import "modules/_list-variations";
 @import "modules/_list-block";
 @import "modules/_list-fancy";
@@ -41,6 +44,9 @@
 @import "modules/_hero";
 @import "modules/_profile";
 @import "modules/_status";
+
+@import "modules/_cidilabs";
+@import "modules/_iframe";
 
 body {
   font-family: $font-text;
@@ -114,6 +120,16 @@ main {
 
 p {
   line-height: 2.1;
+}
+
+.badge {
+  padding: 0.5em 1em 0.5em 1em;
+  font-size: 0.8em;
+  background: $ui-neutral-light;
+  color: $ui-neutral-darkest;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 20px;
 }
 
 

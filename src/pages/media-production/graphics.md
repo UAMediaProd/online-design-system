@@ -27,6 +27,8 @@ Although there are no exact rules when designing graphic content for online cour
 
 The University of Adelaide brand stipulates that Font Awesome should be used as the only icon font. When using icon fonts you must apply the following markup, which includes the fa and fa-fw CSS classes.
 
+```html
     <i class="fa fa-fw [icon-class-name]" aria-hidden="true" role="presentation"></i>
+```
 
 The [icon-class-name] can be replaced by any of the font icon classes found on the font awesome icons page. Your must only use version 4.7.0 of the font awesome icons. 

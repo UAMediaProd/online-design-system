@@ -25,7 +25,7 @@ Although there are no exact rules when designing graphic content for online cour
 
 <h3 class="adx-markup-block-primary">Icon fonts</h3> 
 
-The University of Adelaide brand stipulates that Font Awesome should be used as the only icon font. When using icon fonts you must apply the following markup, which includes the fa and fa-fw CSS classes.
+The University of Adelaide brand stipulates that Font Awesome should be used as the only icon font. When using icon fonts you must apply the following markup.
 
 ```html
     <i class="fas [icon-class-name]" aria-hidden="true" role="presentation"></i>

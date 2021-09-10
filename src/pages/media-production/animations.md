@@ -30,3 +30,18 @@ Conversely, in-page animations take the form of .gifs inside learning pages or n
 ##### Sex101x - The Menstrual Cycle [interactive]
 
 <iframe title="Menstrual Cycle" src="https://lti-adx.adelaide.edu.au/sex101x/infographic/" style="width: 100%; height: 1200px;"></iframe>
+
+
+### Production
+
+#### Tools and libraries
+
+We use After Effects for all animation work: video and in-page alike. Graphical elements follow the guidelines found in this guide for [illustration](../illustration) and [graphics](../graphics).
+
+To assist in transitions, effects, and text animations, we also use [Mr Horse's Adobe Tools](https://misterhorse.com/)
+
+#### Producing in-page animations
+
+For animations that are not gifs, we use the [Lottie](https://lottiefiles.com/) toolset. This plugin installs straight into After Effects and provides a means of exporting the animation as a smooth .svg player which can then be uploaded and inserted into a web-page or interactive. 
+
+The benefits over .gifs include the ability to run at native framerates (60+ FPS inside the web-page); a much smaller file-size; and a much faster process to export the animation compared to exporting a video then converting to .gif.

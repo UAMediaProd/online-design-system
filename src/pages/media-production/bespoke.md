@@ -21,9 +21,9 @@ using technologies such as HTML, CSS and JS and hosting then on a server or on o
 
 <br><br>
 
-#### HumRepro101x: Menstrual Cycle animation
+#### GFABx: Apple value chains
 
-<iframe title="Menstrual Cycle" src="https://lti-adx.adelaide.edu.au/sex101x/infographic/" style="width: 100%; height: 1200px;"></iframe>
+<iframe title="Value Chains : Apples" src="https://lti-adx.adelaide.edu.au/global-food/chains/" style="width: 100%; height: 1100px;"></iframe>
 
 <h3 class="adx-markup-block-primary">How to use interactives</h3>
 

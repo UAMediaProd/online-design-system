@@ -14,7 +14,7 @@ Before you start to create data visualisations, its important to remember a few 
 <li>Do not rely on colour as the only form of identifier, unless colour is use elsewhere within the page or resource, or where catagorial colours are required (eg. a scatter plot) </li>
 <li>Ensure all axis', axis titles and bars are labelled correctly</li>
 <li>Sort data by metric (high to low, most to least) unless sorting by date</li>
-<li>Use "multiply" belnd mode for plots where values overlap</li>
+<li>Use "multiply" blend mode for plots where values overlap</li>
 <li>Where possible, include support for zooming, scrolling and resizing charts for readibility</li>
 </ol>
 

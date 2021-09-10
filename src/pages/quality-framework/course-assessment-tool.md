@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Online Course Assessment Tool
+title: Online course assessment tool
 tags: ['nav', 'qf']
 ---
 

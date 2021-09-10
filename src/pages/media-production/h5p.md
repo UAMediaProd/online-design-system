@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: H5P Activities
+title: H5P activities
 tags: ['nav', 'media']
 ---
 

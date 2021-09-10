@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Bespoke JS Interactives
+title: Interactives
 tags: ['nav', 'media']
 ---
 

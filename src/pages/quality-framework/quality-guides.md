@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Quality Guides
+title: Quality guides
 tags: ['nav', 'qf']
 ---
 

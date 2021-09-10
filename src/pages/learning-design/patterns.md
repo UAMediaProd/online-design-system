@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Learning Design Patterns
+title: Learning Design patterns
 tags: ['nav', 'ld']
 ---
 

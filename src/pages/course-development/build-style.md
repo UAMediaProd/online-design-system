@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Build Style
+title: Build style
 tags: ['nav', 'style']
 ---
 

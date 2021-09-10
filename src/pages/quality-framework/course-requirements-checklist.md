@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Online Course Requirements Checklist
+title: Online course requirements checklist
 tags: ['nav', 'qf']
 ---
 

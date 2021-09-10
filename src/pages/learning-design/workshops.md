@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Course Design Workshops
+title: Course design workshops
 tags: ['nav', 'ld']
 ---
 

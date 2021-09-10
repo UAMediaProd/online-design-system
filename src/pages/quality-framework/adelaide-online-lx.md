@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: The Adelaide Online Learning Experience
+title: Adelaide Online Learning Experience
 tags: ['nav', 'qf']
 ---
 

@@ -7,7 +7,7 @@
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  white-space: pre-line !important; //override Prism styling
+  // white-space: pre-line !important; //override Prism styling
 
   
   code {
@@ -22,5 +22,5 @@
   padding: .15ch .5ch;
   font-size: $s !important; //override Prism styling
   letter-spacing: .05ch;
-  white-space: pre-line !important; //override Prism styling
+  // white-space: pre-line !important; //override Prism styling
 }

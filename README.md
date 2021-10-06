@@ -1,33 +1,13 @@
-![logo](https://repository-images.githubusercontent.com/302921248/58478900-0adf-11eb-8f0b-74be58a898ef)
+# Online Design System
 
-# 11ty Sass Skeleton
+Documentation for course build, learning design and multimedia design within Learning Enhancement and Innovation / Online Programs at The University of Adelaide. Developer-focused for editing and use, not yet hosted on GitHub Pages.
 
-Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.
+## How to use and edit
 
-Includes minifiying and autoprefixing of styles `postbuild`.
-
-<small>Created by [@5t3ph](https://twitter.com/5t3ph)</small>
-
-## Development Scripts
-
-**`npm start`**
-
-> Run 11ty with hot reload at localhost:8080, including reload based on Sass changes
-
-**`npm run build`**
-
-> Production build includes minified, autoprefixed CSS
-
-Use this as the "Publish command" if needed by hosting such as Netlify.
-
-## Resources to extend this and learn 11ty
-
-**Ensure accessible colors** by adding my [a11y-color-tokens package](https://www.npmjs.com/package/a11y-color-tokens)
-
-**Learn to build an 11ty site in 20 mins** with my [egghead video course](https://5t3ph.dev/learn-11ty) and see how to add a blog and custom data.
-
-**Add auto-generated social media images** with [my plugin](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-social-images)
-
-**Explore advanced setup of custom data** through my [tutorial on building a community site](https://css-tricks.com/a-community-driven-site-with-eleventy-building-the-site/)
-
-**For a more full-featured starter** check out my [11ty Netlify Jumpstart](https://11ty-netlify-jumpstart.netlify.app/) (also works for hosts other than Netlify).
+1. Clone this repository
+2. [Install NPM](https://nodejs.org/en/download/) if not already installed
+3. Using Command Line or Terminal, navigate to the cloned folder
+4. Inside your terminal, run `npm install` or `npm i` to install any dependencies
+5. Run `npm start` to run the web app on http://localhost:8080 by default.
+6. Make any changes inside the `src` folder items and review the changes on the local server
+7. Push through changes when you're happy with them; `npm start` auto-builds changes ready for deployment.

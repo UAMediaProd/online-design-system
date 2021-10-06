@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/UAMediaProd/online-design-system/2ab92be6e3481fcac96f2bbd36b1dda75bc3d2d8/src/assets/images/half-shield.svg?token=ACBUYBSHPPCSOLWLXS6OTXLBLT3CM" style="width: 100px; margin-left: auto; margin-right: auto;"></p>
+
 # Online Design System
 
 Documentation for course build, learning design and multimedia design within Learning Enhancement and Innovation / Online Programs at The University of Adelaide. Developer-focused for editing and use, not yet hosted on GitHub Pages.

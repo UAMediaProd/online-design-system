@@ -51,6 +51,12 @@
  			<li class="{{ 'active' if style.url in page.url }}"><a href="{{ style.url | url }}" class="nav-link">{{ style.data.title }}</a></li>
  		{% endfor %}
 	</ul>
+	<h4>Accessibility</h4>
+	<ul>
+		{% for access in collections.access %}
+ 			<li class="{{ 'active' if access.url in page.url }}"><a href="{{ access.url | url }}" class="nav-link">{{ access.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
 </aside>
 
 	{{ content | safe }} 

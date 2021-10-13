@@ -81,7 +81,6 @@ You should check with the video hosting platform that any closed captions that m
 
 When referencing complex visuals, graphs or data which is displayed on screen, accessibility guidelines state that it is important to clearly describe the information in words during your multimedia presentation. 
 
-
 <table class="adx styled">
       <caption class="top">Above: A table summarising the accessibility requirement (right-hand column) and its associated inclusion in a multimedia resource (left-hand column).</caption>
       <thead>
@@ -98,7 +97,7 @@ When referencing complex visuals, graphs or data which is displayed on screen, a
       </tbody>
   </table>
 
-  #### Explanation
+#### Explanation
 
   The refined text describes the visual content in detail. Inclusion of numerical data - including the actual totals for each relevant year - gives the learner a more complete story, which replicates the experience that a learner without visual impairment would have,without seeing the visual.
 

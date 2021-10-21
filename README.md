@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/UAMediaProd/online-design-system/2ab92be6e3481fcac96f2bbd36b1dda75bc3d2d8/src/assets/images/half-shield.svg?token=ACBUYBSHPPCSOLWLXS6OTXLBLT3CM" style="width: 100px; margin-left: auto; margin-right: auto;"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/UAMediaProd/online-design-system/main/src/assets/images/half-shield.svg?token=ACBUYBTBOVROG7NLOJRDCXLBOD7DQ" style="width: 100px; margin-left: auto; margin-right: auto;"></p>
 
 # Online Design System
 

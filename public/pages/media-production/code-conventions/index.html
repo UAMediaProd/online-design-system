@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Design System: Code conventions</title>
+	<link rel="stylesheet" href="/css/style.css" />
+	<link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
+
+	<link rel="icon" href="https://styleguide-v3.adelaide.edu.au/assets/img/icons/apple-touch-icon-144-precomposed.png" type="image/x-icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics; enable when we make this live -->
+	
+	
+</head>
+<body>
+<aside class="sidebar">
+
+	
+
+	<a href="/pages/home/" class="nav-link"><h3 class="home-link"><img src="/assets/images/half-shield.svg" width="30" style="float:left; padding: 10px;"> Online Design System</h3></a>
+
+	<h4>Quality Framework</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/quality-framework/adelaide-online-lx/" class="nav-link">Adelaide Online Learning Experience</a></li>
+ 		
+ 			<li class=""><a href="/pages/quality-framework/course-assessment-tool/" class="nav-link">Online course assessment tool</a></li>
+ 		
+ 			<li class=""><a href="/pages/quality-framework/course-requirements-checklist/" class="nav-link">Online course requirements checklist</a></li>
+ 		
+ 			<li class=""><a href="/pages/quality-framework/quality-guides/" class="nav-link">Quality guides</a></li>
+ 		
+	</ul>
+	<h4>Learning Design</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/learning-design/patterns/" class="nav-link">Learning Design patterns</a></li>
+ 		
+ 			<li class=""><a href="/pages/learning-design/workshops/" class="nav-link">Course design workshops</a></li>
+ 		
+	</ul>
+	<h4>Media Production</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/media-production/photographic/" class="nav-link">Photographic guidelines</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/graphics/" class="nav-link">Graphics and iconography</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/illustration/" class="nav-link">Illustration guidelines</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/animations/" class="nav-link">Animations</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/h5p/" class="nav-link">H5P activities</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/bespoke/" class="nav-link">Interactives</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/data-visualisation/" class="nav-link">Data visualisation</a></li>
+ 		
+ 			<li class="active"><a href="/pages/media-production/code-conventions/" class="nav-link">Code conventions</a></li>
+ 		
+	</ul>
+	<h4>Course Development</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/course-development/multimedia-guidelines/" class="nav-link">Multimedia guidelines</a></li>
+ 		
+ 			<li class=""><a href="/pages/course-development/attribution-figures/" class="nav-link">Attribution and figures</a></li>
+ 		
+ 			<li class=""><a href="/pages/course-development/equations/" class="nav-link">Equations and code</a></li>
+ 		
+ 			<li class=""><a href="/pages/course-development/build-style/" class="nav-link">Build style</a></li>
+ 		
+	</ul>
+	<h4>Accessibility</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/accessibility/accessibility-images/" class="nav-link">Image Accessibility</a></li>
+ 		
+ 			<li class=""><a href="/pages/accessibility/accessibility-pages/" class="nav-link">Page Accessibility</a></li>
+ 		
+ 			<li class=""><a href="/pages/accessibility/accessibility-multimedia/" class="nav-link">Multimedia Accessibility</a></li>
+ 		
+	</ul>
+</aside>
+
+	
+<main class="adx">
+  <header>
+    <h1 class="adx-markup-header">Code conventions</h1>
+  </header>
+
+  
+
+  <p>This area contains information and guidelines on how we tend to write our code. These guidelines are not necessarily <em>prescriptive</em> but rather <em>descriptive</em> and as such cover information on
+how we might write and organise our code. Additions are more than welcome for personal style or for re-usable snippets of code.</p>
+<div class="adx-direction-warning"><h5>Note:</h5>
+    <p>The end goal of our code is that it is sustainable and maintainable – as long as the code makes logical sense, code editors can display the code however you like, but this serves as a loose guide on keeping things consistent and logical.</p>
+</div>
+<h3>Variable Naming</h3>
+<p>For variables, we try to use camel case or kebab case when writing variable names which contain more than one word and in some cases, we also make use of snake case. Examples are as follows:</p>
+<h4>Camel Case</h4>
+<p>Camel Case naming uses lowercase letters for the first word with each subsequent word starting with a capital letter. This would be the default style the LRD team recommends as it follows the conventions
+of most JavaScript functions or methods.</p>
+<pre class="language-js"><code class="language-js">    <span class="token keyword">var</span> variableName <span class="token operator">=</span> <span class="token string">"name"</span><span class="token punctuation">;</span></code></pre>
+<h4>Kebab Case</h4>
+<p>Kebab Case naming uses lowercase letters for the entire variable, separating words with a hyphen (-).</p>
+<pre class="language-js"><code class="language-js">    <span class="token keyword">var</span> variable<span class="token operator">-</span>name <span class="token operator">=</span> <span class="token string">"name"</span><span class="token punctuation">;</span></code></pre>
+<h4>Constant Variables</h4>
+<p>Constant variables, <code>const</code>, are variables which cannot be reassigned. While it is not required, it is common convention to write constant variables in all-caps and using snake case capitalisation. Snake Case naming separates words with an underscore (_). This works well for constant variables to make it clear where word breaks are.</p>
+<pre class="language-js"><code class="language-js">    <span class="token keyword">const</span> <span class="token constant">API_KEY</span> <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span></code></pre>
+<h3>Bracket Placement and indentation</h3>
+<p>Bracket placement is not as crucial as variable naming conventions as this is something code editors can reformat as needed. However, it is recommended you follow one of the following styles for consistency. The main difference between them is where each bracket <code>{}</code> sits when placed after a control statement (<code>if</code>, <code>for</code>, <code>function()</code>).</p>
+<p>For indentation, we typically use tabs for code, but this is not a hard rule as long as the code blocks line up.</p>
+<h4>K&amp;R</h4>
+<pre class="language-js"><code class="language-js">    <span class="token keyword">if</span> <span class="token punctuation">(</span>statement<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token function">something</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token function">somethingElse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span></code></pre>
+<h4>Allman</h4>
+<pre class="language-js"><code class="language-js">    <span class="token keyword">if</span> <span class="token punctuation">(</span>statement<span class="token punctuation">)</span> <br>    <span class="token punctuation">{</span><br>        <span class="token function">something</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token function">somethingElse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span></code></pre>
+<h3>Useful code snippets</h3>
+<p>Add your own re-usable snippets here (until we build our own API) as you write them. Loops, sorting, finding a value, etc.</p>
+
+
+</main>
+ 
+
+</body>
+</html>

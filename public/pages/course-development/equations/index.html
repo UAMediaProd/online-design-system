@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Design System: Equations and code</title>
+	<link rel="stylesheet" href="/css/style.css" />
+	<link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
+
+	<link rel="icon" href="https://styleguide-v3.adelaide.edu.au/assets/img/icons/apple-touch-icon-144-precomposed.png" type="image/x-icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics; enable when we make this live -->
+	
+	
+</head>
+<body>
+<aside class="sidebar">
+
+	
+
+	<a href="/pages/home/" class="nav-link"><h3 class="home-link"><img src="/assets/images/half-shield.svg" width="30" style="float:left; padding: 10px;"> Online Design System</h3></a>
+
+	<h4>Quality Framework</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/quality-framework/adelaide-online-lx/" class="nav-link">Adelaide Online Learning Experience</a></li>
+ 		
+ 			<li class=""><a href="/pages/quality-framework/course-assessment-tool/" class="nav-link">Online course assessment tool</a></li>
+ 		
+ 			<li class=""><a href="/pages/quality-framework/course-requirements-checklist/" class="nav-link">Online course requirements checklist</a></li>
+ 		
+ 			<li class=""><a href="/pages/quality-framework/quality-guides/" class="nav-link">Quality guides</a></li>
+ 		
+	</ul>
+	<h4>Learning Design</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/learning-design/patterns/" class="nav-link">Learning Design patterns</a></li>
+ 		
+ 			<li class=""><a href="/pages/learning-design/workshops/" class="nav-link">Course design workshops</a></li>
+ 		
+	</ul>
+	<h4>Media Production</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/media-production/photographic/" class="nav-link">Photographic guidelines</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/graphics/" class="nav-link">Graphics and iconography</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/illustration/" class="nav-link">Illustration guidelines</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/animations/" class="nav-link">Animations</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/h5p/" class="nav-link">H5P activities</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/bespoke/" class="nav-link">Interactives</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/data-visualisation/" class="nav-link">Data visualisation</a></li>
+ 		
+ 			<li class=""><a href="/pages/media-production/code-conventions/" class="nav-link">Code conventions</a></li>
+ 		
+	</ul>
+	<h4>Course Development</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/course-development/multimedia-guidelines/" class="nav-link">Multimedia guidelines</a></li>
+ 		
+ 			<li class=""><a href="/pages/course-development/attribution-figures/" class="nav-link">Attribution and figures</a></li>
+ 		
+ 			<li class="active"><a href="/pages/course-development/equations/" class="nav-link">Equations and code</a></li>
+ 		
+ 			<li class=""><a href="/pages/course-development/build-style/" class="nav-link">Build style</a></li>
+ 		
+	</ul>
+	<h4>Accessibility</h4>
+	<ul>
+		
+ 			<li class=""><a href="/pages/accessibility/accessibility-images/" class="nav-link">Image Accessibility</a></li>
+ 		
+ 			<li class=""><a href="/pages/accessibility/accessibility-pages/" class="nav-link">Page Accessibility</a></li>
+ 		
+ 			<li class=""><a href="/pages/accessibility/accessibility-multimedia/" class="nav-link">Multimedia Accessibility</a></li>
+ 		
+	</ul>
+</aside>
+
+	
+<main class="adx">
+  <header>
+    <h1 class="adx-markup-header">Equations and code</h1>
+  </header>
+
+  
+
+  <h3>Equations</h3>
+<p>The default equation tool in Canvas adds equations as LaTex (as a JPG file) to the page. Unfortunately, the alt tag that comes with the LaTex is not written in a MathSpeak language, meaning that it is not adequate for screen readers and therefore, not accessible.</p>
+<p>It should be noted that the best case solution for adding equations to the course, is where the Academic or SME provides both the LaTex code along with the full MathSpeak text in the course storyboard. This is for 2 reasons:</p>
+<p>So that during any video recording or transcript creation, the correct language can be used, and
+So that during course build (HTML), both the LaTex and corresponding MathSpeak can be added to the page, both image and alt text.</p>
+<p>In circumstances where either LaTex or MathSpeak (or both) are not provided, the following toolbars may be used to assist in the creation of web assets for Canvas.</p>
+<p>WIRIS provide a number of <a href="http://www.wiris.com/editor/demo/en/developers">tools at this website</a> which can be used to convert different equations to various web formats, including into Nemeth MathSpeak.</p>
+<p>The tool titled <a href="http://www.wiris.com/editor/demo/en/developers#accessibility">“With accessibility features that make mathematics available to users with different disabilities”</a> can be used to create accessible alt text for your equations. Either by copy and pasting the LaTex code into the editor, or by creating the code itself via keyboard or even writing with the “pen” tool.</p>
+<p>Audio of the transcript can be heard using the “Talk!” button, and the accessible text (rendered in English) can be copy and pasted into the alt text in the course.</p>
+<img src="/assets/images/equations.png" alt="WIRIS accessible equations tool screenshot" width="100%">
+<h3>Code markup</h3>
+<p><strong>Note:</strong> Code markup has become more complex in the new Rich Content Editor  in Canvas.</p>
+<p>Pieces of code should be inserted into Canvas with syntax highlighting where available, in a monospaced font, and distinct to regular learning content.</p>
+<p>Canvas no longer supports a native code insertion function and now we recommend writing any code in a code editor and pasting the result into the Canvas rich text editor. We currently use Prism.js
+inserted into the MyUni theme which will automatically style code syntax highlighting for the following languages:</p>
+<ul>
+<li>C</li>
+<li>C#</li>
+<li>C++</li>
+<li>CSS</li>
+<li>F#</li>
+<li>HTML/XML</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>LESS</li>
+<li>PHP</li>
+<li>Processing</li>
+<li>Python</li>
+<li>Ruby</li>
+<li>Markdown</li>
+</ul>
+<p>After pasting in your code, Canvas will automatically convert the <code>&lt; &gt;</code> symbols into text symbols. Format the text as both <code>pre</code> and <code>code</code> in the editor. To enable syntax highlighting, add in a class to the <code>pre</code> tag in Canvas:</p>
+<pre class="language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pre</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>language-LANGUAGENAME<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span><br>            <span class="token entity named-entity" title="&lt;">&amp;lt;</span>p<span class="token entity named-entity" title="&gt;">&amp;gt;</span>Hello World!<span class="token entity named-entity" title="&lt;">&amp;lt;</span>/p<span class="token entity named-entity" title="&gt;">&amp;gt;</span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>pre</span><span class="token punctuation">></span></span></code></pre>
+<p>Where <code>LANGUAGENAME</code> corresponds to a language name from the list above in lowercase (e.g. <code>language-html</code>).</p>
+<p>To prevent Canvas formatting the code into one single line and to preserve line breaks and spacing, ensure you copy and paste the code straight into the Canvas editor and <em>then</em> apply the classes after.</p>
+
+
+</main>
+ 
+
+</body>
+</html>

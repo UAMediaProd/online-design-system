@@ -12,4 +12,4 @@ Documentation for course build, learning design and multimedia design within Lea
 4. Inside your terminal, run `npm install` or `npm i` to install any dependencies
 5. Run `npm start` to run the web app on http://localhost:8080 by default.
 6. Make any changes inside the `src` folder items and review the changes on the local server
-7. Push through changes when you're happy with them; `npm start` auto-builds changes ready for deployment.
+7. When you're happy with any changes, run `npm run build` in your terminal to create production-ready files and then push back to GitHub

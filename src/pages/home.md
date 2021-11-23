@@ -26,4 +26,3 @@ This provides us with a number of benefits:
 3. Writing - create storyboards (text documents) of the entire course. At the 75% complete stage we review of all aspects of the course content & experience.
 4. Production - Media team create of videos, graphics & interactive materials and build the course in platform.
 5. Review - faculty and team review of course and do final checks.
-

@@ -1,6 +1,8 @@
 // add in Prism.js highlighting
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+const isProduction = process.env.NODE_ENV === `production`;
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addWatchTarget("./src/sass/");
@@ -18,6 +20,7 @@ module.exports = function (eleventyConfig) {
       output: "docs",
       layouts: '_layouts'
     },
+    pathPrefix: isProduction ? '/online-design-system/' : '/',
   };
 };
 

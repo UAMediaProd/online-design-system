@@ -10,7 +10,7 @@
     "build:eleventy": "eleventy",
     "postbuild": "postcss docs/css/*.css -u autoprefixer cssnano -r --no-map",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:sass build:eleventy"
+    "build": "npm-run-all build:sass build:eleventy --pathprefix=online-design-system"
   },
   "repository": {
     "type": "git",

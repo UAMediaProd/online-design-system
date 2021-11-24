@@ -87,8 +87,8 @@ To add an image description:
 
 When creating graphics, avoid using only colour to convey information. For example:
 
-<img src='{{ /assets/images/graph-notAccess.png  | url }}' width='100%'>
+<img src="{{ '/assets/images/graph-notAccess.png'  | url }}" width='100%'>
 
 Accessibility guidelines recommend using elements other than colour alone to create associations. An example of this would be using a [contrast checker](https://contrastchecker.com/) to select appropriate colours, adjusting the axis labels to be more informative and moving value labels (desktop, smartphone and laptop) to sit alongside the data in the chart. For example:
 
-<img src='{{ /assets/images/graph-Access.png | url }}' width='100%'>
+<img src="{{ '/assets/images/graph-Access.png' | url }}" width='100%'>

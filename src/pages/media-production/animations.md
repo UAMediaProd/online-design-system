@@ -16,7 +16,7 @@ These are created in After Effects and incorporated into the video production pr
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/D7Mi1XFFDh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##### StatTraX: MathTrackX: Statistics - 'Inference'
-<video width="100%" src="../../../assets/video/STAV15_anim.mp4" controls></video>
+<video width="100%" src="{{ '../../../assets/video/STAV15_anim.mp4' | url }}" controls></video>
 
 ### In-page animations
 
@@ -25,7 +25,7 @@ Conversely, in-page animations take the form of .gifs inside learning pages or n
 
 ##### DiffTraX: Paper Plane [gif]
 
-<img src="../../../assets/images/plane.gif">
+<img src="{{ '../../../assets/images/plane.gif' | url }}">
 
 ##### Sex101x - The Menstrual Cycle [interactive]
 

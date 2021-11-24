@@ -19,9 +19,9 @@ Although there are no exact rules when designing graphic content for online cour
 - Use of horizontal rules and outer boxes to contain content, and
 - Ensure contrast and accessibility has been considered.
 
-<img src="/assets/images/design-elements-infographics-02.gif" alt="infographic style example" style="width:400px"/>
-<img src="/assets/images/design-elements-testimonials-04.jpeg" alt="infographic style example" style="width:400px"/>
-<img src="/assets/images/image-graphic-illus-graphic-infographic-1.gif" alt="infographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/design-elements-infographics-02.gif' | url }}" alt="infographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/design-elements-testimonials-04.jpeg' | url }}" alt="infographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/image-graphic-illus-graphic-infographic-1.gif' | url }}" alt="infographic style example" style="width:400px"/>
 
 <h3 class="adx-markup-block-primary">Icon fonts</h3> 
 

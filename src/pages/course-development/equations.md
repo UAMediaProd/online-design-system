@@ -21,7 +21,7 @@ The tool titled [“With accessibility features that make mathematics available 
 
 Audio of the transcript can be heard using the “Talk!” button, and the accessible text (rendered in English) can be copy and pasted into the alt text in the course.
 
-<img src="/assets/images/equations.png" alt="WIRIS accessible equations tool screenshot" width="100%">
+<img src="{{ '/assets/images/equations.png' | url }}" alt="WIRIS accessible equations tool screenshot" width="100%">
 
 ### Code markup
 

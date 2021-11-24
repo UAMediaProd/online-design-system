@@ -62,7 +62,7 @@ In addition to page zoom, the Microsoft Immersive Reader tool is available on al
 Colour choice, and in particular contrast, play an important role in accessibility. Lack of contrast between foreground and background elements can make content unreadable to some learners.
 If you are presenting text or image-based content on a coloured or textured background, it is important to confirm that there is sufficient contrast between the chosen foreground and background colours. You can do this by using a [contrast checker](https://webaim.org/resources/contrastchecker/).
 <figure class="adx w80">
-<img src="/assets/images/access-colour-matrix.png" width="100%">
+<img src="{{ '/assets/images/access-colour-matrix.png' | url }}" width="100%">
 <figcaption>Above: Matrix of UoA brand colours showing contrast ratios and suitable colour combinations for text colours and backgrounds</figcaption>
 </figure>
 

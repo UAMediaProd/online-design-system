@@ -29,10 +29,10 @@ Some characteristics to look for when sourcing imagery are:
 - Discovery, and
 - Relevance.
 
-<img src="/assets/images/purpose-driven-example-2.jpeg" alt="photographic style example" style="width:400px"/>
-<img src="/assets/images/purpose-driven-example-3.jpeg" alt="photographic style example" style="width:400px"/>
-<img src="/assets/images/purpose-driven-example-6.jpeg" alt="photographic style example" style="width:400px"/>
-<img src="/assets/images/purpose-driven-example-7.jpeg" alt="photographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/purpose-driven-example-2.jpeg' | url }}" alt="photographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/purpose-driven-example-3.jpeg' | url }}" alt="photographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/purpose-driven-example-6.jpeg' | url }}" alt="photographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/purpose-driven-example-7.jpeg' | url }}" alt="photographic style example" style="width:400px"/>
 
 <h3 class="adx-markup-block-primary">Unapproved imagery</h3> 
 
@@ -46,6 +46,6 @@ Images that contain any of the following attributes should not be used:
 - Portrays outdated technology or practices, or
 - Is a photo montage.
 
-<img src="/assets/images/unapproved-image-styles-cheesy.jpeg" alt="unapproved photographic style example" style="width:400px"/>
-<img src="/assets/images/unapproved-image-styles-outdated.jpeg" alt="unapproved photographic style example" style="width:400px"/>
-<img src="/assets/images/unapproved-image-style-montage.jpeg" alt="unapproved photographic style example" style="width:800px"/>
+<img src="{{ '/assets/images/unapproved-image-styles-cheesy.jpeg' | url }}" alt="unapproved photographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/unapproved-image-styles-outdated.jpeg' | url }}" alt="unapproved photographic style example" style="width:400px"/>
+<img src="{{ '/assets/images/unapproved-image-style-montage.jpeg' | url }}" alt="unapproved photographic style example" style="width:800px"/>

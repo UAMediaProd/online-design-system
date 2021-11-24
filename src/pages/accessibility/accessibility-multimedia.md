@@ -112,7 +112,7 @@ Here are two examples of semantic HTML for interactions on a web page. Either of
 1. Anchor `<a></a>`
 
 ```html
-    <a href='./otherpage.html'> Link to another page </a>
+    <a href="{{ './otherpage.html' | url }}"> Link to another page </a>
 ```
 
 Used to link to other pages from the current page.

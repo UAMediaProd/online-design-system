@@ -7,7 +7,7 @@ tags: ['nav', 'style']
 
 ### Multimedia naming conventions
 
-<img src="../../../assets/images/naming.png" width="100%">
+<img src="{{ '../../../assets/images/naming.png' | url }}" width="100%">
 
 Working and exported 'platform-ready' assets follow the same basic naming structure:
 

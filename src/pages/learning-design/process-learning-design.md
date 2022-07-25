@@ -10,13 +10,16 @@ As a foundational aspect of learning design, it's important to consider learning
 So what is learning and how does it happen?
 
 #### Defining learning
-It might come across as odd, but learning is not something that is easy to understand or define. 
+It might come across as odd, but learning is not something that is easy to understand or define. Wikipedia's crowdsourced definition is:
 
-For example, it is not "*the process of education*", thats just what many of us do in our lives that enables learning to occur. It is not through the act of teaching, investigating or researching – those are merely some of the actions that enable learning to occur. 
+> Learning is the process of acquiring new understanding, knowledge, behaviours, skills, values, attitudes, and preferences
+> – [Wikipedia](https://en.wikipedia.org/wiki/Learning) 
 
-Learning itself is a subjective, personal and sometimes spiritual event. An intangible, ephemeral and immeasurable. It is a function of our brain – this mysterious black box that we are yet to understand - and one that is unique in and of itself. To that end, learning is something that is perceivable only by its consequence and affect. We can measure it through testing and demonstrating knowledge, skills, application and process – but it is measurement by proxy, not of the learning itself. 
+With such a broad meaning you can see that it is not "*the process of education*", thats just what many of us do in our lives that enables learning to occur. It is not through the act of teaching, investigating or researching – those are merely some of the actions that enable learning to occur. 
 
-So how do we understand learning then? Well as humans we tend to create theories – ideas and models as ways of describing what we can observe as happening. Each of these theories and models provides a snapshot into how we learn - but rarely provide a full view of it. It's therefore important to consider multiple theories and models of learning to be correct and useful. Our goal therefore is to spot which ones work or apply within the specific area we wish to design. 
+How we learn and what we learn is a subjective, personal and sometimes spiritual event. What happens within our own brains is intangible, ephemeral and immeasurable – we can't just peek inside our brains. Learning is a function of our brain – but within this mysterious black box that we are yet to understand, we know that it is unique in and of itself. To that end, learning is something that is perceivable only by its consequence and affect. We can measure it through testing and demonstrating knowledge, skills, application and process – but it is measurement by proxy, not of the learning itself. 
+
+So how do we understand learning then? Well as humans we tend to create theories – ideas and models as ways of describing what we can observe as happening. Each of these theories and models provides a snapshot of how we learn - but they rarely provide a full view of it. It's therefore important to consider multiple theories and models of learning to be correct and useful. Our goal therefore is to spot which ones work or apply within the specific area we wish to design. It's like taking a picture from different angles and locations in order to map it out as a whole. 
 
 #### Theories of Learning
 Take a few moments to explore this helpful timeline of educational psychology. It explores the key milestones and the progression over time of different ideas as to how we learn.  [Timeline](https://www.mybrainisopen.net/learning-theories-timeline)

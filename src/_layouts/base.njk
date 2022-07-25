@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Online Design System: {{ title }}</title>
 	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+
+	<link rel="stylesheet" href="https://uamediaprod.github.io/uoa-styles/assets/style.css"rel="stylesheet">
 	<link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
 
 	<link rel="icon" href="https://styleguide-v3.adelaide.edu.au/assets/img/icons/apple-touch-icon-144-precomposed.png" type="image/x-icon">
@@ -32,19 +34,21 @@
 
 	{# home navigation? #}
 
-	<a href="{{ '/pages/home/' | url }}" class="nav-link"><h3 class="home-link"><img src="{{ '/assets/images/half-shield.svg' | url }}" width="30" style="float:left; padding: 10px;"> Online Design System</h3></a>
+	<a href="{{ '/' | url }}" class="nav-link"><h3 class="home-link"><img src="{{ '/assets/images/half-shield.svg' | url }}" width="30" style="float:left; padding: 10px;"> Online Design System</h3></a>
 
+
+	<h4>Learning Design</h4>
+	<ul>
+		{% for ld in collections.ld | sort(false, false, 'data.order')%}
+ 			<li class="{{ 'active' if ld.url in page.url }}"><a href="{{ ld.url | url }}" class="nav-link">{{ ld.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
+	
 	<h4>Quality Framework</h4>
 	<ul>
 		{% for qf in collections.qf %}
- 			<li class="{{ 'active' if qf.url in page.url }}"><a href="{{ qf.url | url }}" class="nav-link">{{ qf.data.title }}</a></li>
- 		{% endfor %}
-	</ul>
-	<h4>Learning Design</h4>
-	<ul>
-		{% for ld in collections.ld %}
- 			<li class="{{ 'active' if ld.url in page.url }}"><a href="{{ ld.url | url }}" class="nav-link">{{ ld.data.title }}</a></li>
- 		{% endfor %}
+			<li class="{{ 'active' if qf.url in page.url }}"><a href="{{ qf.url | url }}" class="nav-link">{{ qf.data.title }}</a></li>
+		{% endfor %}
 	</ul>
 	<h4>Media Production</h4>
 	<ul>
@@ -52,7 +56,7 @@
  			<li class="{{ 'active' if media.url in page.url }}"><a href="{{ media.url | url }}" class="nav-link">{{ media.data.title }}</a></li>
  		{% endfor %}
 	</ul>
-	<h4>Course Development</h4>
+	<h4>Course Build</h4>
 	<ul>
 		{% for style in collections.style %}
  			<li class="{{ 'active' if style.url in page.url }}"><a href="{{ style.url | url }}" class="nav-link">{{ style.data.title }}</a></li>
@@ -67,6 +71,8 @@
 </aside>
 
 	{{ content | safe }} 
-
+	<footer>
+		<a href="https://github.com/UAMediaProd/online-design-system/blob/main/{{ page.inputPath }}">Edit this page on GitHub</a>
+	</footer>
 </body>
 </html>

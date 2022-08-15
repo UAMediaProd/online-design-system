@@ -36,7 +36,13 @@
 
 	<a href="{{ '/' | url }}" class="nav-link"><h3 class="home-link"><img src="{{ '/assets/images/half-shield.svg' | url }}" width="30" style="float:left; padding: 10px;"> Online Design System</h3></a>
 
-
+	<h4>UoA Knowledge</h4>
+	<ul>
+		{% for uoa in collections.uoa | sort(false, false, 'data.order')%}
+ 			<li class="{{ 'active' if uoa.url in page.url }}"><a href="{{ uoa.url | url }}" class="nav-link">{{ uoa.data.title }}</a></li>
+ 		{% endfor %}
+	</ul>
+	
 	<h4>Learning Design</h4>
 	<ul>
 		{% for ld in collections.ld | sort(false, false, 'data.order')%}
